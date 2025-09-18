@@ -1,0 +1,4 @@
+// settings.gradle
+
+rootProject.name = "RTranslator-2.00"
+include ':app'

@@ -1,0 +1,26 @@
+// Top-level build.gradle
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Use a version of the Android Gradle Plugin compatible with Gradle 8.5
+        classpath 'com.android.tools.build:gradle:8.3.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Keep for old libraries in this project
+        // This is the CRITICAL line for SwitchButton
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
