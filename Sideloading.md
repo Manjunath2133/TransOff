@@ -1,6 +1,6 @@
-**If you have trouble with the initial download of app's AI models and prefer to do it from a computer and manually insert the models into the app** (sideloading)**, starting with RTranslator version 2.0.3 you can do so by following these steps:**
+**If you have trouble with the initial download of app's AI models and prefer to do it from a computer and manually insert the models into the app** (sideloading)**, starting with TransOff version 2.0.3 you can do so by following these steps:**
 
-- **Download RTranslator version 2.0.3 or higher** (if you have already installed it, reset it).
+- **Download TransOff version 2.0.3 or higher** (if you have already installed it, reset it).
   
 - **Download all the ".onnx" files from the assets of [this release](https://github.com/niedev/RTranslator/releases/tag/2.0.0) in the way you prefer**.<br />
   These files are the neural network models that the app normally downloads on the first launch.
@@ -9,7 +9,7 @@
   In this step, if they are not already present, the app will create the folders where we will insert the AI ​​models.
   
 - **Connect your smartphone to your computer**.<br />
-  If you had already connected your phone to the computer, unplug it and plug it back in, because otherwise, even with refresh, the folders just created by RTranslator, in which to insert the models, will not be displayed.
+  If you had already connected your phone to the computer, unplug it and plug it back in, because otherwise, even with refresh, the folders just created by TransOff, in which to insert the models, will not be displayed.
 
 - **Using your computer, insert the AI model files downloaded before into your phone's folder "Android/data/nie.translator.rtranslator/files"**. <br />
   If you have an sd card and you don't know whether to look in the internal memory or the sd card, check if this folder is present in the internal memory and if inside "files" there is a readme file, if there is not then look in the sd card.

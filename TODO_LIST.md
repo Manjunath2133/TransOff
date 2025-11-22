@@ -1,4 +1,4 @@
-If you want to contribute to RTranslator but you don't know where to start, here is a list of possible things to do:
+If you want to contribute to TransOff but you don't know where to start, here is a list of possible things to do:
 
 | Description | Status |
 | -------- | ------- |
@@ -13,7 +13,7 @@ Here is also a list of more difficult things to do if you want (I don't expect t
 
 | Description | Status |
 | -------- | ------- |
-| Improvements to the Bluetooth LE comunication system, especially ones that add the capability of working reliably even without restarting Bluetooth after a disconnection or an error. For now this is foundamental to make the Bluetooth communication work reliably. The new APIs of Android however, blocks the possibility of turning on or off bluetooth programmatically, that's the main reason that keeps RTranslator away from the Play Store (where the new APIs of android are required). | Not started |
+| Improvements to the Bluetooth LE comunication system, especially ones that add the capability of working reliably even without restarting Bluetooth after a disconnection or an error. For now this is foundamental to make the Bluetooth communication work reliably. The new APIs of Android however, blocks the possibility of turning on or off bluetooth programmatically, that's the main reason that keeps TransOff away from the Play Store (where the new APIs of android are required). | Not started |
 | Adding a new mode dedicated to transcriptions only, that saves the transcriptions like notes and has the capability of editing their text, adding more text via transcriptions ecc. (maybe even add transcriptions using audio files). | Not started |
 
 <br/><br/>
