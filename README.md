@@ -195,3 +195,5 @@ If you have found any bug please report it by opening an issue, or by writing an
 <br /><br />
 
 Enjoy your simultaneous translator.
+#   T r a n s O f f  
+ 
