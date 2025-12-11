@@ -57,7 +57,18 @@ public class DownloadFragment extends Fragment {
             "https://github.com/niedev/RTranslator/releases/download/2.0.0/Whisper_detokenizer.onnx",
             "https://github.com/niedev/RTranslator/releases/download/2.0.0/Whisper_encoder.onnx",
             "https://github.com/niedev/RTranslator/releases/download/2.0.0/Whisper_initializer.onnx"
-    };
+
+//            "https://github.com/vitoplantamura/whisper-onnx-cpu-and-gpu-versions/raw/main/medium/Whisper_cache_initializer.onnx",
+//            "https://github.com/vitoplantamura/whisper-onnx-cpu-and-gpu-versions/raw/main/medium/Whisper_cache_initializer_batch.onnx",
+//            "https://github.com/vitoplantamura/whisper-onnx-cpu-and-gpu-versions/raw/main/medium/Whisper_decoder.onnx",
+//            "https://github.com/vitoplantamura/whisper-onnx-cpu-and-gpu-versions/raw/main/medium/Whisper_detokenizer.onnx",
+//            "https://github.com/vitoplantamura/whisper-onnx-cpu-and-gpu-versions/raw/main/medium/Whisper_encoder.onnx",
+//            "https://github.com/vitoplantamura/whisper-onnx-cpu-and-gpu-versions/raw/main/medium/Whisper_initializer.onnx"
+
+
+
+
+};
     public static final String[] DOWNLOAD_NAMES = {
             "NLLB_cache_initializer.onnx",
             "NLLB_decoder.onnx",
@@ -81,6 +92,15 @@ public class DownloadFragment extends Fragment {
             461,
             88000,
             69
+
+//            58400,    // Whisper_cache_initializer.onnx
+//            58400,    // Whisper_cache_initializer_batch.onnx
+//            614000,   // Whisper_decoder.onnx
+//            461,      // Whisper_detokenizer.onnx (same size)
+//            306000,   // Whisper_encoder.onnx
+//            69      // Whisper_initializer.onnx (this one doesn't change)
+
+
     };
     private static final long INTERVAL_TIME_FOR_GUI_UPDATES_MS = 100;  //500
     private AccessActivity activity;

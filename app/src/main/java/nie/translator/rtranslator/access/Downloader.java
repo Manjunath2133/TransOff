@@ -38,6 +38,7 @@ public class Downloader{
                 setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE).
                 setDestinationInExternalFilesDir(context,null, filename).
                 setTitle("RTranslator - "+filename);
+//        request.setAllowedOverMetered(true);
         return downloadManager.enqueue(request);
     }
 
